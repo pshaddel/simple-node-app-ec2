@@ -1,0 +1,19 @@
+{
+  "name": "simple-node-app-ec2",
+  "version": "1.0.0",
+  "description": "A Very Simple Nodejs App to Deploy on EC2",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "nodejs",
+    "ec2"
+  ],
+  "author": "Poorshad Shaddel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.0.1",
+    "pg": "^8.13.1"
+  }
+}
