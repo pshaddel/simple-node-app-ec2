@@ -2,7 +2,7 @@ const pg = require('pg');
 // import pg from 'pg';
 const { Client } = pg;
 const password = process.env.PGPASSWORD || 'password';
-const user = process.env.PGUSER || 'user';
+const user = process.env.PGUSER || 'postgres';
 const host = process.env.PGHOST || 'localhost';
 const port = process.env.PGPORT ? Number(process.env.PGPORT) : 5432;
 const db = process.env.PGDATABASE || 'node_ec2_app';
